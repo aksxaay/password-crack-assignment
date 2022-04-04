@@ -10,3 +10,23 @@ refer to your Ethical Hacking Cherry Tree
 `Desktop/to-self-with-love/journal-git/Notes/Cherry_Tree_Notes.ctb`
 
 password to crack is always `qwerty`
+
+
+### Reference
+- dwap () damn vuln
+- pass in text file
+- hydra
+- (replace hydra)
+- concatenate all input and then use them in all combinations
+
+- dictionary
+- rockyout common
+
+
+
+## Sniff
+- inssider? windows application // linux alternative
+- didn't need asfasd
+
+
+### metasploitable
