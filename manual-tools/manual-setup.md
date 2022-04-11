@@ -90,3 +90,39 @@ def hash_dictionary():
     return hash_dict
 ```
 
+### Explanations
+
+**Variables**
+`dictionary` - list of passwords
+`users` - username,password_hash
+`users_salted` - username,salt,password_hash
+
+there's atleast *64849* users
+
+salt is unique, random string of characters known to only the site before it's hashed.
+
+`create_hash(word)` creates hash of input word
+
+`salted_hash(salt, password)` hashes them together. (salt + pass)
+
+`hash_dictionary` - dictionary of `dictionary` passwords hashed so unique
+
+
+**Experiments**
+1 => 
+- time taken to match 1 result to freshly created hash.
+
+
+2 => 
+- avg time for 10 users
+
+
+3 =>
+- time taken if used precomputed hash
+
+
+4 =>
+shows why we use unique salt.
+
+- key, value pairs in duplicates using `collections.Counter()`
+- lookout for `A-Jai` and `Hagop`
